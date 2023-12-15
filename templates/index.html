@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-	<title>A2 Sys + ML</title>
-</head>
-<body>
-	<h2> Ann Arbor Systems and ML Meetup</h2>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+<h2> Ann Arbor Systems and ML Meetup</h2>
+<p>Click <a href="{{ get_url(path='@/updates/_index.md') }}">here</a> our updates.</p>
+{% endblock content %}
