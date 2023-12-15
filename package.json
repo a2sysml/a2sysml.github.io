@@ -1,0 +1,17 @@
+{
+  "name": "a2sysml.github.io",
+  "version": "1.0.0",
+  "description": "promo website for a2 sys ml meetup",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production npx tailwindcss -i styles/styles.css -o static/styles/styles.css",
+    "watch": "npx tailwindcss -i styles/styles.css -o static/styles/styles.css; ./scripts/serve.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "tailwindcss": "^3.3.6"
+  }
+  
+}
