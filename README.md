@@ -36,14 +36,29 @@ Nothing too defined for now. Keep the page open by minimizing text. Replace text
 
 ## Development:
 
-We use Zola and Markdown to generate/dev serve (w/ hot reloading) the website. 
+We use Zola and Markdown to generate/dev serve (w/ hot reloading) the website. We use Tailwind for styling.
 
 Ensure you have Docker installed to be able to generate/dev serve.
 
 On every push to main, GA will run and build the website and deploy to GitHub Pages.
 
-See scripts folder for generate/dev serve.
+To get started, run: `npm i && npm run watch`.
+
+If you are updating a lot of styles, you can run tailwind in watch mode.
 
 ## Broken Links:
 
 I'd like to track if any links are broken. GitHub Pages allows me to specify a 404 page. If I can specifically tag analytics to that page and extract the url, I should be able to tell what links are broken and what pages should exist (according to the users typing those links in).
+
+## Accessibility:
+
+Accessibility needs to be addressed eventually.
+
+
+## Todo:
+
+- figure out why image does not show on deployed website
+- finish main page content (add card for next meetup time)
+- finish contact page (just add email, google form for feedback)
+- finish updates page (just make links clickable)
+- conform styles to brand guidelines
