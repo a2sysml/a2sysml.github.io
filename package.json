@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "NODE_ENV=production npx tailwindcss -i styles/styles.css -o static/styles/styles.css",
-    "watch": "npx tailwindcss -i styles/styles.css -o static/styles/styles.css; ./scripts/serve.sh"
+    "watch": "npx tailwindcss -i styles/styles.css -o static/styles/styles.css --minify; ./scripts/serve.sh"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +13,4 @@
     "@tailwindcss/typography": "^0.5.10",
     "tailwindcss": "^3.3.6"
   }
-  
 }
