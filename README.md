@@ -57,6 +57,7 @@ Accessibility needs to be addressed eventually.
 
 ## Todo:
 
+- figure out why image does not show on deployed website
 - finish main page content (add card for next meetup time)
 - finish contact page (just add email, google form for feedback)
 - finish updates page (just make links clickable)
