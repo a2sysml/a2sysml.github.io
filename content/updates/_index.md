@@ -1,6 +1,6 @@
 +++
-title = "List of updates"
+title = "Updates"
 sort_by = "date"
-template = "update.html"
+template = "updates.html"
 page_template = "update-page.html"
 +++
