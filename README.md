@@ -36,6 +36,8 @@ Need to define common content padding, padding between sections of content (marg
 
 Nothing too defined for now. Keep the page open by minimizing text. Replace text with simple icons where possible. Prefer shadowing to outlines or contrasts to give a better look and feel.
 
+Should define consistent spacing for buttons (inside, usage)
+
 ## Development:
 
 We use Zola and Markdown to generate/dev serve (w/ hot reloading) the website. We use Tailwind for styling.
