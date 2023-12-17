@@ -54,7 +54,7 @@ Accessibility needs to be addressed eventually. We are using a mix of a/button f
 
 
 ## Todo:
-- Add feedback form link into contact page
+- Add feedback form link into contact page (https://forms.gle/vFdctffPHbPrgGUZA)
 - make navbar correctly show current page
 - conform styles to brand  (bg-colors added, need to conform navbar, consider font colors, font-family, sizes, spacing)
 - use GA4 with 404 page to see dead links
